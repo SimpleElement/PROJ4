@@ -1,0 +1,23 @@
+server:
+  port: 9788
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: "jdbc:postgresql://localhost:5432/postgres"
+    username: "postgres"
+    password: "qwerty"
+
+  jpa:
+    hibernate:
+      ddl-auto: "create"
+
+kafka:
+  topic:
+    name: "censor"
+
+camunda:
+  bpm:
+    admin-user:
+      id: "1"
+      password: "1"

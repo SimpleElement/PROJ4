@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "label": "Заголовок",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0de8jpq",
+        "columns": null
+      },
+      "id": "Field_014mni3",
+      "key": "title",
+      "description": "Название статьи",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Описание",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0h76crm",
+        "columns": null
+      },
+      "id": "Field_0fzqkx5",
+      "key": "description",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Контент",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_1hululy",
+        "columns": null
+      },
+      "id": "Field_0n8zqwk",
+      "key": "content",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "NEWS",
+          "value": "NEWS"
+        },
+        {
+          "label": "ARTICLES",
+          "value": "ARTICLES"
+        },
+        {
+          "label": "TEST_DRIVES",
+          "value": "TEST_DRIVES"
+        }
+      ],
+      "label": "Категория",
+      "type": "select",
+      "layout": {
+        "row": "Row_0ikdm72",
+        "columns": null
+      },
+      "id": "Field_1ic1f7f",
+      "key": "category",
+      "validate": {
+        "required": true
+      },
+      "description": "Выберите категорию статьи"
+    }
+  ],
+  "type": "default",
+  "id": "addTopic",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

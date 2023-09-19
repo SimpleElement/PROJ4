@@ -1,0 +1,39 @@
+{
+  "components": [
+    {
+      "label": "Почта",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_04k00hu",
+        "columns": null
+      },
+      "id": "Field_0eazg2q",
+      "key": "email",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "Пароль",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1o6h7ji",
+        "columns": null
+      },
+      "id": "Field_0l93ukp",
+      "key": "password",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "user",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

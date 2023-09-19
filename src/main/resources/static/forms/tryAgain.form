@@ -1,0 +1,32 @@
+{
+  "components": [
+    {
+      "text": "=errorMessage",
+      "type": "text",
+      "layout": {
+        "row": "Row_0miq858",
+        "columns": null
+      },
+      "id": "Field_0parpbz"
+    },
+    {
+      "label": "Попробовать ещё раз?",
+      "type": "checkbox",
+      "layout": {
+        "row": "Row_0p0c9n7",
+        "columns": null
+      },
+      "id": "Field_1q7wm4l",
+      "key": "tryAgain"
+    }
+  ],
+  "type": "default",
+  "id": "tryAgain",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
